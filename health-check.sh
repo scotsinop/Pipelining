@@ -1,2 +1,2 @@
 echo 'Health Check'
-su
+env
