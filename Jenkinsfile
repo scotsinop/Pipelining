@@ -25,11 +25,11 @@ pipeline {
         }
         stage('Test') {
               steps {
-                  sh 'echo "Fail!"; exit 1'
+                  sh 'echo "Passed"; exit 0'
               }
             }
         }
-        
+
         post {
             always {
                 echo 'This will always run'
