@@ -22,7 +22,7 @@ pipeline {
                       sh './health-check.sh'
                   }
             }
-
+        }
         stage('Test') {
               steps {
                   sh 'echo "Fail!"; exit 1'
