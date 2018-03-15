@@ -1,0 +1,2 @@
+echo 'Health Check'
+su
